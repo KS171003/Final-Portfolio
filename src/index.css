@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  
+  .text-stroke{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 4px;
+  }
+}
+
+:root{
+  font-family: "Inter",sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+.text.second-text:before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: red;
+  border-left: 2px solid black;
+  animation: animate 4s steps(12) infinite;
+
+}
+@keyframes animate{
+  40%,60%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
+@media (max-width: 768px){
+#hereAreMy{
+    display: none;
+}
+#technologies-skills{
+  margin: 0px;
+}
+}

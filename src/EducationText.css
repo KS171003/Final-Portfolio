@@ -1,0 +1,7 @@
+@media (max-width: 768px){
+.grid.place-content-center.gap-2.bg-black.px-8.py-20.text-white{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  margin-top: 100px;
+}
+}

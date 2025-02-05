@@ -1,0 +1,39 @@
+.carousel {
+  background-color: black;
+  height: 120vh;
+  
+}
+
+.contentContainer {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: end;
+  justify-content: flex-start;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.images {
+  margin-left: 25vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 50px;
+  padding: 0 4rem 0 4rem;
+}
+@media (max-width: 768px){
+  .carousel{
+    font-size: 10px;
+   
+  }
+  .images{
+    margin-left: 25vw;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  grid-gap: 0px;
+  padding: 0 0rem 0 0rem;
+  }
+}

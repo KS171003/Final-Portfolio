@@ -1,0 +1,32 @@
+#about_text{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 550;
+  font-size: 1.9rem;
+  font-size: 27px;
+
+}
+@media (max-width: 768px){
+  #about_text{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 550;
+  font-size: 1.9rem;
+  font-size: 17px;
+  }
+  .text-left{
+    font-size: 50px;
+  }
+  .text-right.px-24{
+    font-size: 50px;
+  }
+}
+@media (max-width: 1024px){
+  .text-left{
+    font-size: 50px;
+  }
+  .text-right.px-24{
+    font-size: 50px;
+  }
+}
+#me{
+  padding-right: 220px;
+}

@@ -1,0 +1,37 @@
+.moving-text{
+  color: rgb(193, 189, 189);
+  font-size: 450px;
+  font-family: 'Molex Shoora', serif;
+  width: 100%;
+}
+.myPic{
+  position: absolute;
+  top:150px;
+  z-index: 1; 
+}
+/* For tablets */
+@media (max-width: 1024px) {
+  .myPic {
+    position: absolute;
+  top:150px;
+  z-index: 1; 
+  }
+}
+
+/* For phones */
+@media (max-width: 768px) {
+  .myPic {
+    margin-top: 180px;
+    height: 400px;
+    width: 500px;
+    position: absolute;
+  top:150px;
+  z-index: 1; 
+  }
+  .moving-text{
+    color: rgb(193, 189, 189);
+  font-size: 250px;
+  font-family: 'Molex Shoora', serif;
+  width: 100%;
+  }
+}

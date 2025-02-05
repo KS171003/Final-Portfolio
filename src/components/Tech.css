@@ -1,0 +1,9 @@
+
+.Tech{
+  font-size: 150px;
+  color: rgb(255, 253, 253);
+}
+.Marquee:hover{
+  animation-play-state:paused;
+  cursor: pointer;
+}

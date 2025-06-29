@@ -1,9 +1,9 @@
 import { useRef } from "react";
 import "./Education.css";
 import ImageContainer from "./imageContainer";
-import one from "/Users/kunalsharma/Desktop/new-portfolio/src/assets/dav.jpg";
-import two from "/Users/kunalsharma/Desktop/new-portfolio/src/assets/dav 2.jpg";
-import three from "/Users/kunalsharma/Desktop/new-portfolio/src/assets/th.webp";
+import one from "../assets/dav.jpg";
+import two from "../assets/dav 2.jpg";
+import three from "../assets/th.webp";
 import { motion, useScroll, useTransform } from "framer-motion";
 const Education = () => {
   const targetRef = useRef(null);

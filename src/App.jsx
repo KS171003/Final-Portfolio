@@ -7,8 +7,8 @@ import Tech from "./components/Tech";
 import { RevealLinks } from "./EducationText";
 import TypeText from "./typeText";
 
-import About from "/Users/kunalsharma/Desktop/new-portfolio/src/components/About.jsx";
-import Hero from "/Users/kunalsharma/Desktop/new-portfolio/src/components/Hero.jsx";
+import About from "./components/About.jsx";
+import Hero from "./components/Hero.jsx";
 
 
 const App = () => {

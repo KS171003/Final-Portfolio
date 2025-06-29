@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee"
 import "./Hero.css";
-import profilePic from "/Users/kunalsharma/Desktop/new-portfolio/src/components/Default_make_cartoon_image_of_this_young_man_1_56784fe4-b8db-4c58-83be-4d442ca8b8e6_0.png"
+import profilePic from "./Default_make_cartoon_image_of_this_young_man_1_56784fe4-b8db-4c58-83be-4d442ca8b8e6_0.png"
 
 const Hero = () => {
   return (

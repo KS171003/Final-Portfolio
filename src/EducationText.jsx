@@ -8,7 +8,7 @@ export const RevealLinks = () => {
     <section className="grid place-content-center gap-2 bg-black px-8 py-20 text-white ">
       <div className=" flex flex-row">
     <div className="grid min-h-[50px] place-content-center bg-black p-4 text-white-800">
-      <DrawOutlineButton>Hover -></DrawOutlineButton>
+      <DrawOutlineButton>Hover &rarr;</DrawOutlineButton>
     </div>
       <FlipLink  href="#">EDUCATION</FlipLink>
       </div>
